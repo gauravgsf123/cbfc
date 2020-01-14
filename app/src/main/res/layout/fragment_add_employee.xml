@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background_one"
+    tools:context=".ui.fragment.AddEmployeeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/transparent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnThirds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#80FFFFFF"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:padding="10dp">
+
+                    <EditText
+                        android:id="@+id/emp_full_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:hint="@string/full_name"
+                        style="@style/editTextStyle"
+                        android:inputType="textCapWords"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <EditText
+                        android:id="@+id/emp_father_name"
+                        style="@style/editTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:hint="@string/father_name"
+                        android:inputType="textCapWords"
+                        app:layout_constraintTop_toBottomOf="@+id/emp_full_name" />
+
+                    <EditText
+                        android:id="@+id/emp_mobile"
+                        style="@style/editTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:hint="@string/mobile"
+                        android:inputType="number"
+                        app:layout_constraintTop_toBottomOf="@+id/emp_father_name" />
+
+                    <EditText
+                        android:id="@+id/emp_address"
+                        style="@style/editTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:hint="@string/address"
+                        android:inputType="textCapWords"
+                        app:layout_constraintTop_toBottomOf="@+id/emp_mobile" />
+
+                    <EditText
+                        android:id="@+id/password"
+                        style="@style/editTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:hint="@string/password"
+                        android:inputType="text"
+                        app:layout_constraintTop_toBottomOf="@+id/emp_address" />
+
+                    <EditText
+                        android:id="@+id/emp_adhar_card_number"
+                        style="@style/editTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:hint="@string/adhar_card_number"
+                        android:inputType="number"
+                        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+                    <EditText
+                        android:id="@+id/emp_pan_card_number"
+                        style="@style/editTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:hint="@string/pancard_number"
+                        android:inputType="textCapCharacters"
+                        app:layout_constraintTop_toBottomOf="@+id/emp_adhar_card_number" />
+
+                    <Button
+                        android:id="@+id/submit"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/colorPrimary"
+                        android:text="submit"
+                        android:textColor="@color/white"
+                        app:layout_constraintTop_toBottomOf="@+id/emp_pan_card_number" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

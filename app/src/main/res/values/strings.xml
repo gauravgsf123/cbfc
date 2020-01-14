@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">cbfc</string>
+    <!--Dashboard Screen-->
+    <string name="account_balance">Account Balance</string>
+    <string name="balance_currency">Rp</string>
+    <string name="balance_amount">524.99</string>
+    <string name="glowis_user">Glowis User</string>
+    <string name="platinumMember">Platinum Member</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="donthaveacnt">Don\'t have an account ?</string>
+    <string name="signup">Sign Up</string>
+    <string name="create_account">Sign Up</string>
+    <string name="forgot_password">Forgot your login Password ?</string>
+    <string name="reset">Reset</string>
+    <string name="fblogin">Log in with Facebook</string>
+    <string name="googlelogin">Log in with Google</string>
+    <string name="terms_and_conditions">I agree to the Terms &amp; Conditions</string>
+    <string name="email_or_mobile">Mobile number or email</string>
+    <string name="admin">Admin</string>
+    <string name="employee">Employee</string>
+    <string name="develop">Developed by Gaurav</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_name">Full Name</string>
+    <string name="father_name">Father Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="address">Address</string>
+    <string name="pancard_number">Pan Card Number</string>
+    <string name="adhar_card_number">Adhar Card Number</string>
+    <string name="upload_profile_image">Upload Profile Image</string>
+    <string name="upload_adhar_image">Upload Adhar Image</string>
+    <string name="upload_pan_image">Upload Pan Card Image</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_father">Enter Father Name</string>
+    <string name="enter_pan_number">Enter Pan Card Number</string>
+    <string name="enter_adhar_number">Enter Adhar Card Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_mobile">Enter Mobile Number</string>
+    <string name="upload_check_image">Upload Check Image</string>
+</resources>
